@@ -4,7 +4,8 @@
   "description": "The official command line interface for Gencord.",
   "main": "src/index.ts",
   "scripts": {
-    "lint": "prettier --write ."
+    "lint": "prettier --write .",
+    "test": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/Gencord/cli#readme",
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "@types/table": "^6.0.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "table": "^6.0.7"
   }
 }

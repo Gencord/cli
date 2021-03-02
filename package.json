@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "The official command line interface for Gencord.",
   "main": "src/index.ts",
-  "scripts": {},
+  "scripts": {
+    "lint": "prettier --write ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gencord/cli.git"
@@ -14,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Gencord/cli/issues"
   },
-  "homepage": "https://github.com/Gencord/cli#readme"
+  "homepage": "https://github.com/Gencord/cli#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
